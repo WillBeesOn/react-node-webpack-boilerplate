@@ -6,7 +6,7 @@
   "license": "ISC",
   "description": "",
   "scripts": {
-    "start": "npm run build-dev && npm-run-all -p nodemon watch-server",
+    "start": "npm-run-all -p nodemon watch-server",
     "nodemon": "nodemon --inspect ./dist/server.js",
     "watch-server": "webpack --watch --mode development --config ./webpack_config/webpack.server.dev.js",
     "build-prod": "webpack --mode production --config ./webpack_config/webpack.prod.js",
