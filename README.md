@@ -9,6 +9,9 @@ A starter pack to set up a React app using a Node/Express backend, all bundled u
 
 ## npm scripts
 Here is a breakdown of the included npm scripts
-* `start` - builds Node backend with Webpack, watches the `server` directory for changes to rebuild backend, and runs nodemon to monitor changes in the build folder to restart server
-* `nodemon` - starts nodemon to inspect server built by Webpack
-* `watch-server` - 
+* `start` - runs `nodemon` and `watch-server` in paralell.
+* `nodemon` - starts nodemon to inspect server and restart server when a new build is created.
+* `watch-server` - builds Node backend with Webpack and watches the `server` directory for changes to rebuild backend.
+* `build-prod` - creates a production build of client and server.
+* `build-dev` - creates a development build of the server which builds the client with WebpackDevMiddleware.
+
