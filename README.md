@@ -1,4 +1,4 @@
-# react-node-webpack-starterpack
+# react-node-webpack-boilerplate
 A starter pack to set up a React app using a Node/Express backend, all bundled using Webpack.
 
 ## Getting started
